@@ -104,7 +104,7 @@ Un exercice minimal contient **au moins 4 fichiers** organisés comme suit :
 ├── src/
 │   ├── Templates/
 │   │   └── q
-│   ├── TestsQ.py
+│   ├── TestQ.py
 │   └── CorrQ.py
 ```
 
@@ -120,7 +120,7 @@ Détail des fichiers :
   ```
   C’est le fichier dans lequel l’étudiant écrit son code.
 
-- `TestsQ.py`  
+- `TestQ.py`  
   Fichier contenant les **tests unitaires**, situé dans :
   ```
   /src/
@@ -153,47 +153,8 @@ Si l’accessibilité n’est pas configurée, l’exercice peut rester invisibl
 
 ## 📁 Dossier `exemples/`
 
-Le dossier `exemples/` contient :
-
-- ✅ Tous les fichiers nécessaires à la création d’un exercice INGInious
-- ✅ Des **exercices fonctionnels complets**
-- ✅ Des exercices **créés par les assistants de l’UCLouvain – Saint-Louis**
-- ✅ Une structure **réutilisable** pour créer rapidement de nouveaux exercices
+Le dossier `exemples/` contient tous les fichiers nécessaires à la création d’un exercice type INGInious
 
 Chaque sous-dossier correspond à **un exercice indépendant**, prêt à servir de modèle.
 
 ---
-
-## 🤝 Contributions
-
-Ce dépôt est **collaboratif et évolutif**.
-
-Il est destiné à être :
-- amélioré,
-- complété,
-- corrigé,
-- enrichi par chacun.
-
-Contributions possibles :
-- ajout de nouveaux exercices,
-- amélioration des tests,
-- clarification du guide,
-- bonnes pratiques INGInious,
-- retours d’expérience.
-
-👉 N’hésitez pas à proposer des **pull requests** ou à ouvrir des **issues**.
-
----
-
-## 📌 À venir (idées)
-
-- Checklist de validation d’un exercice
-- Exemples multi-langages
-- Erreurs fréquentes
-- Templates d’exercices “classiques”
-- Bonnes pratiques pour les tests unitaires
-
----
-
-Bonne contribution 🚀
-
