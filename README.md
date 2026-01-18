@@ -82,4 +82,118 @@ Cliquer sur l’exercice nouvellement créé, puis sur **« Éditer l’exercice
 
 ### ❓ Onglet : *Sous-problèmes*
 
-1. Dans **« Nouvel identifiant de problème »**, entrer :
+1. Dans **« Nouvel identifiant de problème »**, entrer : q1
+2. Cliquer sur **« Ajouter »**
+3. Cliquer sur le sous-problème créé (`q1`)
+4. Définir :
+- Le **titre de la question**
+- L’**énoncé spécifique**
+- Le **langage** (ex. : Python)
+
+👉 C’est aussi ici que l’on configure le **message affiché juste avant que l’étudiant écrive son code**.
+
+---
+
+### 📂 Onglet : *Fichiers de l’exercice*
+
+Un exercice minimal contient **au moins 4 fichiers** organisés comme suit :
+
+```
+/
+├── run
+├── src/
+│   ├── Templates/
+│   │   └── q
+│   ├── TestsQ.py
+│   └── CorrQ.py
+```
+
+Détail des fichiers :
+
+- `run`  
+  Fichier situé **à la racine (`/`)**, utilisé par INGInious pour lancer la correction.
+
+- `q`  
+  Fichier template situé dans :
+  ```
+  /src/Templates/q
+  ```
+  C’est le fichier dans lequel l’étudiant écrit son code.
+
+- `TestsQ.py`  
+  Fichier contenant les **tests unitaires**, situé dans :
+  ```
+  /src/
+  ```
+
+- `CorrQ.py`  
+  Fichier contenant la **solution de référence**, utilisé par les tests, situé dans le même dossier que les tests.
+
+Une fois tous les fichiers ajoutés ou modifiés, cliquer sur :
+
+➡️ **« Appliquer les changements »**
+
+---
+
+## 👁️ Accessibilité de l’exercice
+
+Après avoir créé et configuré l’exercice :
+
+1. Revenir dans le menu **« Exercices »** (colonne de gauche)
+2. Retrouver l’exercice dans la liste
+3. Cliquer sur **« Paramètres de l’exercice »**
+4. Dans la section **Accessibilité**, choisir :
+   - **Toujours** → l’exercice est visible en permanence
+   - **Personnalisé** → visibilité contrôlée par dates
+
+⚠️ **Étape essentielle** :  
+Si l’accessibilité n’est pas configurée, l’exercice peut rester invisible pour les étudiants.
+
+---
+
+## 📁 Dossier `exemples/`
+
+Le dossier `exemples/` contient :
+
+- ✅ Tous les fichiers nécessaires à la création d’un exercice INGInious
+- ✅ Des **exercices fonctionnels complets**
+- ✅ Des exercices **créés par les assistants de l’UCLouvain – Saint-Louis**
+- ✅ Une structure **réutilisable** pour créer rapidement de nouveaux exercices
+
+Chaque sous-dossier correspond à **un exercice indépendant**, prêt à servir de modèle.
+
+---
+
+## 🤝 Contributions
+
+Ce dépôt est **collaboratif et évolutif**.
+
+Il est destiné à être :
+- amélioré,
+- complété,
+- corrigé,
+- enrichi par chacun.
+
+Contributions possibles :
+- ajout de nouveaux exercices,
+- amélioration des tests,
+- clarification du guide,
+- bonnes pratiques INGInious,
+- retours d’expérience.
+
+👉 N’hésitez pas à proposer des **pull requests** ou à ouvrir des **issues**.
+
+---
+
+## 📌 À venir (idées)
+
+- Checklist de validation d’un exercice
+- Exemples multi-langages
+- Erreurs fréquentes
+- Templates d’exercices “classiques”
+- Bonnes pratiques pour les tests unitaires
+
+---
+
+Bonne contribution 🚀
+
