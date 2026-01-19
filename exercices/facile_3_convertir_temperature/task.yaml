@@ -1,0 +1,39 @@
+author: Votre Nom
+contact_url: ''
+context: |-
+    Vous devez créer une fonction qui convertit une température de Celsius en Fahrenheit.
+    
+    Créez une fonction ``convertir_temperature()`` qui :
+    
+    1. Demande une température en degrés Celsius (nombre décimal)
+    2. Convertit cette température en Fahrenheit avec la formule : F = C × 1.8 + 32
+    3. Affiche le résultat sous la forme : "[celsius] degrees Celsius = [fahrenheit] degrees Fahrenheit"
+    
+    **Exemple d'exécution :**
+    
+    .. code-block:: python
+    
+        >>> convertir_temperature()
+        Entrez la temperature en Celsius: 25.0
+        25.0 degrees Celsius = 77.0 degrees Fahrenheit
+
+environment_id: default
+environment_parameters:
+    limits:
+        time: '300'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Facile_3_Convertir_Temperature
+network_grading: false
+order: 3
+problems:
+    q1:
+        type: code
+        name: Implémentation
+        header: Implémentez la fonction ``convertir_temperature()`` en Python.
+        language: python
+        default: ''

@@ -1,0 +1,52 @@
+author: Votre Nom
+contact_url: ''
+context: |-
+    Vous devez créer une fonction qui calcule le prix final d'un article selon des réductions.
+    
+    Créez une fonction ``calculer_prix()`` qui :
+    
+    1. Demande le prix initial de l'article (nombre décimal)
+    2. Applique les réductions suivantes :
+       
+       - Si le prix est inférieur à 50€ : aucune réduction
+       - Si le prix est entre 50€ et 100€ (inclus) : réduction de 10%
+       - Si le prix est supérieur à 100€ : réduction de 20%
+    
+    3. Affiche le prix final sous la forme : "Prix final: [prix] euros"
+    
+    **Exemple d'exécution :**
+    
+    .. code-block:: python
+    
+        >>> calculer_prix()
+        Entrez le prix initial: 30.0
+        Prix final: 30.0 euros
+        
+        >>> calculer_prix()
+        Entrez le prix initial: 80.0
+        Prix final: 72.0 euros
+        
+        >>> calculer_prix()
+        Entrez le prix initial: 150.0
+        Prix final: 120.0 euros
+
+environment_id: default
+environment_parameters:
+    limits:
+        time: '300'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Moyen_2_Calculer_Prix
+network_grading: false
+order: 5
+problems:
+    q1:
+        type: code
+        name: Implémentation
+        header: Implémentez la fonction ``calculer_prix()`` en Python.
+        language: python
+        default: ''

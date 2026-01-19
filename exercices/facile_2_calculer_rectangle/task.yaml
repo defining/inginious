@@ -1,0 +1,41 @@
+author: Votre Nom
+contact_url: ''
+context: |-
+    Vous devez créer une fonction qui effectue un calcul arithmétique simple.
+    
+    Créez une fonction ``calculer_rectangle()`` qui :
+    
+    1. Demande la largeur d'un rectangle (nombre décimal)
+    2. Demande la hauteur d'un rectangle (nombre décimal)
+    3. Calcule et affiche la surface du rectangle (largeur × hauteur)
+    4. Affiche le résultat sous la forme : "La surface du rectangle est [surface]"
+    
+    **Exemple d'exécution :**
+    
+    .. code-block:: python
+    
+        >>> calculer_rectangle()
+        Entrez la largeur: 5.5
+        Entrez la hauteur: 3.0
+        La surface du rectangle est 16.5
+
+environment_id: default
+environment_parameters:
+    limits:
+        time: '300'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Facile_2_Calculer_Rectangle
+network_grading: false
+order: 2
+problems:
+    q1:
+        type: code
+        name: Implémentation
+        header: Implémentez la fonction ``calculer_rectangle()`` en Python.
+        language: python
+        default: ''

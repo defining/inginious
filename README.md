@@ -6,6 +6,8 @@ Ce dépôt GitHub a pour objectif de **centraliser, documenter et partager des e
 il est destiné à être **amélioré, enrichi et corrigé par chacun** (assistants, enseignants, contributeurs).  
 Toute contribution est la bienvenue (nouveaux exercices, corrections, améliorations du guide, bonnes pratiques, etc.).
 
+Si vous ne voulez pas lire tout le readme, voici comment il faut mettre de nouveaux exercices sur Inginious en video: [ici](https://youtu.be/Lc1h-PIOUXk)
+
 ---
 
 ## 🎯 Objectifs du dépôt

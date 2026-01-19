@@ -1,0 +1,48 @@
+author: Votre Nom
+contact_url: ''
+context: |-
+    Vous devez créer une fonction qui calcule l'Indice de Masse Corporelle (IMC) et donne une interprétation.
+    
+    Créez une fonction ``calculer_imc()`` qui :
+    
+    1. Demande le poids en kg (nombre décimal)
+    2. Demande la taille en mètres (nombre décimal)
+    3. Calcule l'IMC avec la formule : IMC = poids / (taille × taille)
+    4. Affiche l'IMC calculé : "Votre IMC est: [imc]"
+    5. Affiche l'interprétation selon les critères suivants :
+       
+       - IMC < 18.5 : "Insuffisance ponderale"
+       - 18.5 ≤ IMC < 25 : "Corpulence normale"
+       - 25 ≤ IMC < 30 : "Surpoids"
+       - IMC ≥ 30 : "Obesite"
+    
+    **Exemple d'exécution :**
+    
+    .. code-block:: python
+    
+        >>> calculer_imc()
+        Entrez votre poids en kg: 70.0
+        Entrez votre taille en m: 1.75
+        Votre IMC est: 22.857142857142858
+        Corpulence normale
+
+environment_id: default
+environment_parameters:
+    limits:
+        time: '300'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Moyen_3_Calculer_IMC
+network_grading: false
+order: 6
+problems:
+    q1:
+        type: code
+        name: Implémentation
+        header: Implémentez la fonction ``calculer_imc()`` en Python.
+        language: python
+        default: ''

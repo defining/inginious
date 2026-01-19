@@ -1,0 +1,59 @@
+author: Votre Nom
+contact_url: ''
+context: |-
+    Vous devez créer une fonction qui calcule le tarif d'un parking selon la durée et le type de véhicule.
+    
+    Créez une fonction ``calculer_parking()`` qui :
+    
+    1. Demande le type de véhicule : "voiture" ou "moto"
+    2. Demande le nombre d'heures de stationnement (nombre entier)
+    3. Calcule le tarif selon les règles suivantes :
+       
+       **Pour les voitures :**
+       
+       - Première heure : 3€
+       - De la 2ème à la 5ème heure : 2€ par heure
+       - Au-delà de 5 heures : 1.5€ par heure
+       
+       **Pour les motos :**
+       
+       - Première heure : 2€
+       - De la 2ème à la 5ème heure : 1.5€ par heure
+       - Au-delà de 5 heures : 1€ par heure
+    
+    4. Affiche le tarif : "Tarif: [tarif] euros"
+    
+    **Exemples d'exécution :**
+    
+    .. code-block:: python
+    
+        >>> calculer_parking()
+        Type de vehicule (voiture/moto): voiture
+        Nombre d'heures: 3
+        Tarif: 7.0 euros
+        
+        >>> calculer_parking()
+        Type de vehicule (voiture/moto): moto
+        Nombre d'heures: 7
+        Tarif: 10.0 euros
+
+environment_id: default
+environment_parameters:
+    limits:
+        time: '300'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Difficile_3_Tarif_Parking
+network_grading: false
+order: 9
+problems:
+    q1:
+        type: code
+        name: Implémentation
+        header: Implémentez la fonction ``calculer_parking()`` en Python.
+        language: python
+        default: ''

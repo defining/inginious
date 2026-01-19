@@ -1,0 +1,55 @@
+author: Votre Nom
+contact_url: ''
+context: |-
+    Vous devez créer une fonction qui calcule la note finale d'un étudiant et détermine s'il réussit.
+    
+    Créez une fonction ``calculer_note()`` qui :
+    
+    1. Demande la note de l'examen (nombre décimal entre 0 et 20)
+    2. Demande la note du projet (nombre décimal entre 0 et 20)
+    3. Calcule la note finale : 60% examen + 40% projet
+    4. Affiche la note finale : "Note finale: [note]"
+    5. Détermine et affiche le résultat selon ces critères :
+       
+       - Note finale < 10 : "Echec"
+       - 10 ≤ Note finale < 12 : "Reussite"
+       - 12 ≤ Note finale < 14 : "Satisfaction"
+       - 14 ≤ Note finale < 16 : "Distinction"
+       - Note finale ≥ 16 : "Grande distinction"
+    
+    **Exemple d'exécution :**
+    
+    .. code-block:: python
+    
+        >>> calculer_note()
+        Entrez la note de l'examen: 15.0
+        Entrez la note du projet: 14.0
+        Note finale: 14.6
+        Distinction
+        
+        >>> calculer_note()
+        Entrez la note de l'examen: 8.0
+        Entrez la note du projet: 12.0
+        Note finale: 9.6
+        Echec
+
+environment_id: default
+environment_parameters:
+    limits:
+        time: '300'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Difficile_2_Calculer_Note
+network_grading: false
+order: 8
+problems:
+    q1:
+        type: code
+        name: Implémentation
+        header: Implémentez la fonction ``calculer_note()`` en Python.
+        language: python
+        default: ''

@@ -1,0 +1,58 @@
+author: Votre Nom
+contact_url: ''
+context: |-
+    Vous devez créer une fonction qui détermine si une année est bissextile.
+    
+    Créez une fonction ``verifier_bissextile()`` qui :
+    
+    1. Demande une année (nombre entier)
+    2. Détermine si l'année est bissextile selon les règles suivantes :
+       
+       - Une année est bissextile si elle est divisible par 4
+       - MAIS si elle est divisible par 100, elle ne l'est pas
+       - SAUF si elle est aussi divisible par 400, alors elle l'est
+    
+    3. Affiche le résultat :
+       
+       - Si bissextile : "[annee] est une annee bissextile"
+       - Sinon : "[annee] n'est pas une annee bissextile"
+    
+    **Exemples :**
+    
+    - 2000 est bissextile (divisible par 400)
+    - 1900 n'est pas bissextile (divisible par 100 mais pas par 400)
+    - 2024 est bissextile (divisible par 4 et pas par 100)
+    - 2023 n'est pas bissextile (pas divisible par 4)
+    
+    **Exemple d'exécution :**
+    
+    .. code-block:: python
+    
+        >>> verifier_bissextile()
+        Entrez une annee: 2000
+        2000 est une annee bissextile
+        
+        >>> verifier_bissextile()
+        Entrez une annee: 1900
+        1900 n'est pas une annee bissextile
+
+environment_id: default
+environment_parameters:
+    limits:
+        time: '300'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Difficile_1_Annee_Bissextile
+network_grading: false
+order: 7
+problems:
+    q1:
+        type: code
+        name: Implémentation
+        header: Implémentez la fonction ``verifier_bissextile()`` en Python.
+        language: python
+        default: ''

@@ -1,0 +1,40 @@
+author: Votre Nom
+contact_url: ''
+context: |-
+    Vous débutez en programmation Python. Pour ce premier exercice, vous devez créer une fonction qui affiche des informations personnelles.
+    
+    Créez une fonction ``afficher_info()`` qui :
+    
+    1. Demande à l'utilisateur son prénom
+    2. Demande à l'utilisateur son âge (nombre entier)
+    3. Affiche ces informations sous la forme : "Bonjour [prénom], vous avez [âge] ans."
+    
+    **Exemple d'exécution :**
+    
+    .. code-block:: python
+    
+        >>> afficher_info()
+        Entrez votre prenom: Alice
+        Entrez votre age: 20
+        Bonjour Alice, vous avez 20 ans.
+
+environment_id: default
+environment_parameters:
+    limits:
+        time: '300'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Facile_1_Afficher_Info
+network_grading: false
+order: 1
+problems:
+    q1:
+        type: code
+        name: Implémentation
+        header: Implémentez la fonction ``afficher_info()`` en Python.
+        language: python
+        default: ''

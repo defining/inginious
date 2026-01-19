@@ -1,0 +1,48 @@
+author: Votre Nom
+contact_url: ''
+context: |-
+    Vous devez créer une fonction qui vérifie si une personne est majeure ou mineure.
+    
+    Créez une fonction ``verifier_majorite()`` qui :
+    
+    1. Demande l'âge de l'utilisateur (nombre entier)
+    2. Si l'âge est inférieur à 18, affiche : "Vous etes mineur"
+    3. Si l'âge est égal à 18, affiche : "Vous venez de devenir majeur"
+    4. Si l'âge est supérieur à 18, affiche : "Vous etes majeur"
+    
+    **Exemple d'exécution :**
+    
+    .. code-block:: python
+    
+        >>> verifier_majorite()
+        Entrez votre age: 17
+        Vous etes mineur
+        
+        >>> verifier_majorite()
+        Entrez votre age: 18
+        Vous venez de devenir majeur
+        
+        >>> verifier_majorite()
+        Entrez votre age: 25
+        Vous etes majeur
+
+environment_id: default
+environment_parameters:
+    limits:
+        time: '300'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Moyen_1_Verifier_Majorite
+network_grading: false
+order: 4
+problems:
+    q1:
+        type: code
+        name: Implémentation
+        header: Implémentez la fonction ``verifier_majorite()`` en Python.
+        language: python
+        default: ''
